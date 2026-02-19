@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Tasks</title>
+</head>
+<body>
+
+<input id="studentName" placeholder="Student Name">
+<input id="studentAge" type="number" placeholder="Student Age">
+<input id="studentGrade" placeholder="Student Grade">
+<button onclick="addStudent()">Add Student</button>
+
+<ul id="studentsList"></ul>
+
+<hr>
+
+<input id="taskInput" placeholder="New Task">
+<button onclick="addTask()">Add Task</button>
+
+<ul id="taskList"></ul>
+
+<hr>
+
+<img id="slider" width="200">
+<br>
+<button onclick="prevImage()">Previous</button>
+<button onclick="nextImage()">Next</button>
+<button onclick="resetImage()">Reset</button>
+
+<hr>
+
+<input id="searchInput" placeholder="Search..." oninput="filterItems()">
+
+<ul id="itemsList"></ul>
+<p id="noResults" style="display:none;">No results found</p>
+
+<script src="main.js"></script>
+
+</body>
+</html>
